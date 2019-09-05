@@ -41,3 +41,7 @@ and copy and paste the complete script
 mysql -uroot
 SOURCE C:\Users\PAL-7\workspace\pal-tracker\databases\tracker\create_databases.sql
 -----------------------------------------------------------
+
+To Check VCAP_Variables
+cf env pal-tracker-production
+---------------------------------------------------------
