@@ -32,3 +32,12 @@ dotnet test test/PalTrackerTests --filter PalTrackerTests.TimeEntryControllerTes
 git push --tags -u origin master 
 
 ./gradlew cloudNativeDeveloperRest -PserverUrl=https://hp-pal-tracker-prod.cfapps.io/
+
+-----------------------------------------------------------
+To run Sql Script in Command Prompt 
+mysql -uroot
+and copy and paste the complete script
+
+mysql -uroot
+SOURCE C:\Users\PAL-7\workspace\pal-tracker\databases\tracker\create_databases.sql
+-----------------------------------------------------------
